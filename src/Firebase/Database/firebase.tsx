@@ -27,6 +27,7 @@ class Firebase {
         this.firestore = app.firestore();
     }
 
+    /** TODO: Temporary test function -> Remove */
     testCallback = (result: string) => {
         console.log(result);
     }
